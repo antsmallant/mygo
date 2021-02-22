@@ -29,8 +29,7 @@ func tcpGather(ip string, ports []string) map[string]string {
 
 func test(host string, ports []string) {
 	var r = tcpGather(host, ports)
-	fmt.Println("test results", host, ports)
-	fmt.Println(r)
+	fmt.Printf("test results of: %v %v, is %v\r\n", host, ports, r)
 }
 
 func main() {
