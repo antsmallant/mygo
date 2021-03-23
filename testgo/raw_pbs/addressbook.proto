@@ -1,7 +1,7 @@
 syntax = "proto3";
 package pb;
 
-option go_package = "pbs/protos";
+option go_package = "github.com/antsmallant/testgo/pbs";
  
 message Person {
     string name = 1;

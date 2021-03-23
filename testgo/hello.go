@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/antsmallant/testgo/aaa"
 	"github.com/golang/protobuf/proto"
-	pb "github.com/antsmallant/testgo/protos"
+	pb "github.com/antsmallant/testgo/pbs"
 )
 
 func main() {
