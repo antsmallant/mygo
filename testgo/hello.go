@@ -4,6 +4,7 @@ import (
 	"github.com/antsmallant/testgo/aaa"
 	"github.com/golang/protobuf/proto"
 	pb "github.com/antsmallant/testgo/pbs"
+	"fmt"
 )
 
 func main() {
