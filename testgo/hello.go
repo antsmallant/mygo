@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/antsmallant/testgo/aaa"
+	"github.com/antsmallant/testgo/aaa/bbb"
 	"github.com/golang/protobuf/proto"
 	pb "github.com/antsmallant/testgo/pbs"
 	"fmt"
@@ -45,7 +45,7 @@ func test_pb() {
 }
 
 func main() {
-	aaa.Pp()
+	bbb.Pp()
 
 	test_pb()
 }
