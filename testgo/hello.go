@@ -7,10 +7,7 @@ import (
 	"fmt"
 )
 
-func main() {
-	aaa.Pp()
-
-
+func test_pb() {
 	person := &pb.Person{
 		Name:"yz",
 		Age:11,
@@ -45,4 +42,10 @@ func main() {
 	}
  
 	fmt.Println(newPersonObj)
+}
+
+func main() {
+	aaa.Pp()
+
+	test_pb()
 }
