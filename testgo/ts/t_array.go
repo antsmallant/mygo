@@ -5,9 +5,7 @@ import (
 )
 
 func main() {
-	fmt.Println("a")
-	// var a [4]int
-	// for i, v := range a {
-	// 	fmt.Println("a")
-	// }
+	if sum := 0; sum == 0 {
+		fmt.Println("hello")
+	}
 }
