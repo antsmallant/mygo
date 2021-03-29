@@ -129,6 +129,16 @@ func WordCount(s string) map[string]int {
 	return m
 }
 
+type UserMessage struct {
+	Name    string `json:"name"`
+	Content string `json:"content"`
+}
+
+func t_struct() {
+	u := UserMessage{}
+	fmt.Println(u)
+}
+
 func main() {
-	test_map()
+	t_struct()
 }
