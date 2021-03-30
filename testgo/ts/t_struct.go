@@ -54,6 +54,19 @@ func test2() {
     fmt.Println(t2)
 }
 
+type A struct {
+    id int
+}
+
+func newDefaultA() A {
+    return A{id:10}
+}    
+    
+func test3() {
+    a := newDefaultA()
+    fmt.Println(a)
+}
+
 func main() {
-    test2()
+    test3()
 }
